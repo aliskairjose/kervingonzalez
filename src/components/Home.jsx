@@ -1,4 +1,4 @@
-import cv from "../../public/kervin-gonzalez-cv.pdf";
+import cv from "../assets/docs/kervin-gonzalez-cv.pdf";
 import "../App.css";
 import { useContext } from "react";
 import MovingText from "react-moving-text";

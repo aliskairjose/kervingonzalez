@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { UserContext } from "../App";
-import { UserCircleIcon } from "@heroicons/react/24/outline";
+import { ServerStackIcon } from "@heroicons/react/24/outline";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -32,9 +32,9 @@ export default function Experience() {
               contentArrowStyle={{ borderRight: "7px solid  rgb(0,132,199)" }}
               date={exp.dates}
               iconStyle={{ background: "rgb(0,132,199)", color: "#fff" }}
-              icon={<UserCircleIcon />}
+              icon={<ServerStackIcon />}
             >
-              <h3 className="vertical-timeline-element-title text-xl tracking-wide font-bold">
+              <h3 className="vertical-timeline-element-title md:text-xl text-base tracking-wide font-bold">
                 {exp.company}
               </h3>
               <h4 className="vertical-timeline-element-subtitle italic mb-2">
