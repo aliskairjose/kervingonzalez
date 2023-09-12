@@ -3,7 +3,8 @@ import "../App.css";
 import { useContext } from "react";
 import MovingText from "react-moving-text";
 import { UserContext } from "../App";
-import '../assets/styles/Home.css'
+import "../assets/styles/Home.css";
+import bgImg from "../assets/images/bg/bg-4.jpg";
 
 export default function Home() {
   const data = useContext(UserContext);
@@ -11,14 +12,17 @@ export default function Home() {
 
   return (
     <div className="w-full h-screen relative overflow-hidden bg-sky-100">
-      <div className="absolute hidden sm:flex pt-10 xl:px-32 px-4 xl:max-w-3xl md:max-w-xl max-w-sm text-sm">
+      <img src={bgImg} alt="imagen" className="absolute mix-blend-multiply opacity-25 blur-md" />
+      <div className="absolute hidden sm:flex pt-10 xl:px-32 px-4 xl:max-w-3xl md:max-w-xl max-w-sm text-sm z-10">
         <div>{home.phone}</div>
         <div className="pl-10">{home.email}</div>
       </div>
       <div className="relative z-10">
         <div className="flex flex-row items-center h-screen xl:px-32 px-4 xl:max-w-3xl md:max-w-xl max-w-sm">
           <div className="text-left">
-            <p className="ls:text-xl text-sm pb-6 italic font-light">{home.saludo}</p>
+            <p className="ls:text-xl text-sm pb-6 italic font-light">
+              {home.saludo}
+            </p>
             <p className="lg:text-7xl text-6xl mb-4">{home.name}</p>
             <span className="lg:text-3xl text-2xl font-light text-yellow-600">
               <MovingText
@@ -45,7 +49,7 @@ export default function Home() {
               rel="noreferrer"
             >
               <button className="bg-sky-500 hover:bg-sky-700 text-white py-2 px-4 rounded mt-8 shadow">
-               {home.download}
+                {home.download}
               </button>
             </a>
           </div>

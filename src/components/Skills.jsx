@@ -7,7 +7,7 @@ export default function Skills() {
   const { abilities } = data;
 
   return (
-    <div className="w-full min-h-max lg:px-24 px-4 ">
+    <div className="w-full min-h-max lg:px-24 px-4 bg-sky-100">
       <div className="text-left py-10">
         <h1 className="font-bold text-yellow-600">{abilities.title}</h1>
       </div>

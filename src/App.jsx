@@ -18,7 +18,7 @@ function App() {
           <Menu />
         </div>
         <div className="flex-1 overflow-auto h-screen">
-          <section id="home">
+          <section id="home"> 
             <Home />
           </section>
           <section id="bio" className="lg:py-[80px] py-[40px]">

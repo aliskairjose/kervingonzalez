@@ -10,7 +10,7 @@ export default function About() {
   const { description, title, headline, name } = data.bio;
 
   return (
-    <div className="w-full min-h-max lg:px-24 px-4 ">
+    <div className="w-full min-h-max lg:px-24 px-4">
       <div className="flex flex-col lg:flex-row">
         <div className="lg:w-2/5 w-full">
           <img
