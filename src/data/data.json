@@ -1,20 +1,21 @@
 {
-    "home":{
+    "home": {
         "title": "Home",
         "saludo": "Hola, mi nombre es",
         "email": "kervingonzalez@gmail.com",
         "name": "Kervin González",
         "phone": "+58 412.241.9616",
-        "headlines":[
+        "headlines": [
             "Front End Developer",
             "Back End Developer",
             "Full Stack Developer",
             "App Developer"
         ],
-        "download":"Descargar CV"
+        "description":"Desarrollador front-end basado en Angular, Vue y React, con conocimiento de back con nodejs, nestjs y Laravel",
+        "download": "Descargar CV"
     },
     "bio": {
-        "title": "Bíografía.",
+        "title": "Biografía.",
         "description": "Desarrollador front-end con experiencia en Angular, Vue, Rect, para ayudar a las empresas a crear y mantener un mejor código base para la reutilización. Capaz de aprender continuamente de los desarrolladores senior y seguir nutriendo a los desarrolladores junior. Experiencia en impulsar proyectos como parte fundamental del equipo de desarrollo, facilitando proyectos desde el concepto hasta el lanzamiento. Apasionado por el aprendizaje y el desarrollo con el deseo de aplicar habilidades en el equipo de desarrollo más grande, ansioso por abordar problemas más complejos y continuar encontrando formas de maximizar la eficiencia del usuario.",
         "details": [
             {
@@ -38,15 +39,20 @@
         ],
         "languages": [
             {
-                "ES": "Nativo"
+                "language": "ES",
+                "level": "NATIVO"
             },
             {
-                "EN": "Básico"
+                "language": "EN",
+                "level": "BÁSICO"
             }
         ],
         "name": "Kervin González",
         "headline": "Front-End Developer"
     },
+    "cursos":[
+        {"":""}
+    ],
     "experience": {
         "title": "Experiencia Laboral.",
         "experiences": [
@@ -92,7 +98,7 @@
                 ]
             },
             {
-                "company": "Cronapis",
+                "company": "Cronapis (cerrada)",
                 "cargo": "Programador Front-End",
                 "dates": "Jul 2020 - Oct 2022",
                 "logo": "",
@@ -142,7 +148,8 @@
                 "tasks": [
                     "Soporte técnico",
                     "Administrador de servidores",
-                    "Programador"
+                    "Programador",
+                    "Desarrollo del web site de la UMC"
                 ]
             }
         ]
@@ -151,7 +158,7 @@
         "title": "Habilidades.",
         "skills": {
             "title": "Programming Skills",
-            "items":[
+            "items": [
                 {
                     "skill": "Javascript",
                     "percent": "80%"
@@ -178,15 +185,53 @@
                 }
             ]
         },
-        "knowledge":{
+        "knowledge": {
             "title": "Conocimientos",
-            "items":[
-                ["Javascript,","TypeScript,", "ReactJs,", "VueJs,", "JQuery"],
-                ["PHP,", "Laravel,", "Symphony,", "NodeJs,", "NestJs"],
-                ["Ionic,", "Flutter"],
-                ["Bootstrap,", "Tailwind,", "Css3,", "Sass,", "Less"],
-                ["Git,", "Contentful"]
+            "items": [
+                [
+                    "Javascript,",
+                    "TypeScript,",
+                    "ReactJs,",
+                    "VueJs,",
+                    "JQuery"
+                ],
+                [
+                    "PHP,",
+                    "Laravel,",
+                    "Symphony,",
+                    "NodeJs,",
+                    "NestJs"
+                ],
+                [
+                    "Ionic,",
+                    "Flutter"
+                ],
+                [
+                    "Bootstrap,",
+                    "Tailwind,",
+                    "Css3,",
+                    "Sass,",
+                    "Less"
+                ],
+                [
+                    "Git,",
+                    "Contentful"
+                ]
             ]
         }
-    }
+    },
+    "menu": [
+        {
+            "hash": "#home"
+        },
+        {
+            "hash": "#bio"
+        },
+        {
+            "hash": "#skills"
+        },
+        {
+            "hash": "#experience"
+        }
+    ]
 }

@@ -9,7 +9,7 @@ export default function Skills() {
   return (
     <div className="w-full min-h-max lg:px-24 px-4 bg-sky-100">
       <div className="text-left py-10">
-        <h1 className="font-bold text-yellow-600">{abilities.title}</h1>
+        <h1 className="title font-bold text-yellow-600">{abilities.title}</h1>
       </div>
       <div className="flex md:flex-row lg:pgap-0 md:gap-2 gap-14 flex-col md:mx-2 mx-auto lg:max-w-6xl md:max-w-2xl pb-8 md:px-0 px-3">
         <div className="flex-1">
@@ -18,7 +18,7 @@ export default function Skills() {
           </p>
           <ul className="flex flex-col text-left gap-1 list-outside list-disc mt-10">
             {abilities.knowledge.items.map((item, index) => (
-              <li key={index}>
+              <li key={index} className="break-all">
                 {item.map((value) => (
                   <span key={value} className="mr-1">
                     {value}

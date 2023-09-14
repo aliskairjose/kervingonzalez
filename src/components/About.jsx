@@ -4,27 +4,28 @@ import { UserContext } from "../App";
 import "../App.css";
 import "../assets/styles/About.css";
 
-
 export default function About() {
   const data = useContext(UserContext);
-  const { description, title, headline, name } = data.bio;
+  const { description, title, headline, name, languages } = data.bio;
 
   return (
-    <div className="w-full min-h-max lg:px-24 px-4">
-      <div className="flex flex-col lg:flex-row">
+    <div className="w-full min-h-max xl:px-24 lg:px-12 px-4">
+      <div className="flex flex-col lg:flex-row lg:gap-0 md:gap-10 gap-4">
         <div className="lg:w-2/5 w-full">
           <img
             src={menImg}
             alt=""
-            className="rounded-full outline outline-offset-2 outline-4 outline-sky-500 max-h-[350px] m-auto "
+            className="rounded-full border border-yellow-600 outline outline-offset-2 outline-4 outline-sky-500 max-h-[350px] m-auto md:h-auto h-60"
           />
           <div className="md:mt-8 mt-10">
-            <span className="text-xl font-light">{headline}</span> 
-            <h1>{name}</h1>
+            <span className="text-xl font-light">{headline}</span>
+            <h1 className="xl:text-5xl lg:text-4xl md:text-5xl text-4xl">{name}</h1>
           </div>
         </div>
         <div className="lg:w-3/5 w-full text-left lg:ml-10 ml-0">
-          <h1 className="mb-8 font-bold text-yellow-600 md:mt-0 mt-6">{title}</h1>
+          <h1 className="title mb-8 font-bold text-yellow-600 md:mt-0 mt-6">
+            {title}
+          </h1>
           <p className="leading-7">{description}</p>
           <div className="flex flex-col md:flex-row mt-6">
             <div className="flex-1 leading-8">
@@ -51,15 +52,15 @@ export default function About() {
             </div>
           </div>
           <div className="flex items-center justify-center mt-6">
-            <div className="md:flex">
-              <div className="flex items-center mb-4 md:mb-0">
-                <p className="font-bold mr-2 p-2 border rounded-full">ES</p>
-                <p>NATIVO</p>
-              </div>
-              <div className="flex items-center md:ml-10">
-                <p className="font-bold mr-2 p-2 border rounded-full">EN</p>
-                <p>BÁSICO</p>
-              </div>
+            <div className="md:flex gap-6">
+              {languages.map((item, index) => (
+                <div className="flex items-center mb-4 md:mb-0" key={index}>
+                  <p className="font-bold mr-2 p-2 border border-sky-700 rounded-full">
+                    {item.language}
+                  </p>
+                  <p>{item.level}</p>
+                </div>
+              ))}
             </div>
           </div>
         </div>

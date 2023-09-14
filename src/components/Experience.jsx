@@ -14,7 +14,7 @@ export default function Experience() {
   return (
     <div className="w-full  min-h-max lg:px-24 px-4">
       <div className="py-10">
-        <h1 className="font-bold text-left text-yellow-600">{title}</h1>
+        <h1 className="title font-bold text-left text-yellow-600">{title}</h1>
       </div>
       <div className="flex flex-wrap">
         <VerticalTimeline

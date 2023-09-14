@@ -14,11 +14,11 @@ function App() {
   return (
     <UserContext.Provider value={data}>
       <div className="flex">
-        <div className="flex w-[5rem] bg-sky-600">
+        <div className="flex lg:w-[5rem] md:w-[4rem] w-[3rem] bg-sky-600">
           <Menu />
         </div>
         <div className="flex-1 overflow-auto h-screen">
-          <section id="home"> 
+          <section id="home" className=""> 
             <Home />
           </section>
           <section id="bio" className="lg:py-[80px] py-[40px]">
@@ -30,6 +30,7 @@ function App() {
           <section id="experience" className="lg:py-[80px] py-[40px]">
             <Experience />
           </section>
+          
           <Footer />
         </div>
       </div>
