@@ -12,14 +12,10 @@ export default function Experience() {
   const { experiences, title } = data.experience;
 
   return (
-    <div className="w-full  min-h-max lg:px-24 px-4">
-      <div className="py-10">
-        <h1 className="title font-bold text-left text-yellow-600">{title}</h1>
-      </div>
+    <div className="w-full min-h-max lg:px-24 px-4">
+      <h1 className="title text-yellow-600">{title}</h1>
       <div className="flex flex-wrap">
-        <VerticalTimeline
-          lineColor="rgb(0,132,199,0.5)"
-        >
+        <VerticalTimeline lineColor="rgb(0,132,199,0.5)">
           {experiences.map((exp, index) => (
             <VerticalTimelineElement
               key={index}

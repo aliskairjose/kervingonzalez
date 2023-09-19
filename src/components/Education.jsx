@@ -1,6 +1,6 @@
 
 export default function Education() {
   return (
-    <div>Education</div>
+    <div className="container mx-auto bg-white">Education</div>
   )
 }

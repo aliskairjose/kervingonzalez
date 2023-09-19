@@ -35,7 +35,7 @@ export default function Menu() {
   return (
     <div className="grid grid-flow-row auto-rows-max w-full gap-12">
       <div className="bg-yellow-600">
-        <a href="#" className="m-auto">
+        <a href="#" className="-m-1.5 p-1.5">
           <span className="sr-only">Kervin González</span>
           <img
             className="md:h-12 h-10 w-auto rounded-full mx-auto"

@@ -41,16 +41,18 @@ export default function Home() {
               />
             </span>
             <p className="mt-4">{home.description}</p>
-            <a
-              href={cv}
-              download="CV Kervin Gonzalez"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button className="bg-sky-600 hover:bg-sky-700 text-white py-2 px-4 rounded mt-8 shadow">
-                {home.download}
-              </button>
-            </a>
+            <div className="flex md:justify-start justify-center">
+              <a
+                href={cv}
+                download="CV Kervin Gonzalez"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="bg-sky-600 hover:bg-sky-700 text-white py-2 px-4 rounded mt-8 shadow">
+                  {home.download}
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </div>

@@ -7,6 +7,7 @@ import Menu from "./components/Menu";
 import { createContext } from "react";
 import data from "./data/data.json";
 import Footer from "./components/Footer";
+// import Education from './components/Education';
 
 export const UserContext = createContext();
 
@@ -21,10 +22,13 @@ function App() {
           <section id="home" className=""> 
             <Home />
           </section>
+          {/* <section>
+            <Education />
+          </section> */}
           <section id="bio" className="lg:py-[80px] py-[40px]">
             <About />
           </section>
-          <section id="skills" className="lg:py-[80px] py-[40px]">
+          <section id="skills" className="lg:py-[80px] py-[40px] bg-sky-100">
             <Skills />
           </section>
           <section id="experience" className="lg:py-[80px] py-[40px]">

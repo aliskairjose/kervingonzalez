@@ -23,7 +23,7 @@ export default function About() {
           </div>
         </div>
         <div className="lg:w-3/5 w-full text-left lg:ml-10 ml-0">
-          <h1 className="title mb-8 font-bold text-yellow-600 md:mt-0 mt-6">
+          <h1 className="title text-yellow-600 md:mt-0 mt-6">
             {title}
           </h1>
           <p className="leading-7">{description}</p>
