@@ -2,11 +2,12 @@
   "name": "kervingonzalez.github.io",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://aliskairjose.github.io/kervingonzalez",
+  "homepage": "http://aliskairjose/kervingonzalez.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite --open",
     "build": "vite build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
