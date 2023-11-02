@@ -12,7 +12,7 @@ export default function Portfolio() {
       <div className='flex gap-2'>
         {portfolios.map((p, i)=>(
           <div key={i}>
-            <img src={`/kervingonzalez/src/assets/images/portfolio/${p.image}.png`} className=''/>
+            <img src={`../assets/portfolio/${p.image}.png`}/>
             <p className='uppercase mt-2'>
                <a target="_blank" rel="noopener noreferrer" href={p.url}>{p.name}</a>
             </p>
