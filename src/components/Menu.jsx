@@ -24,6 +24,9 @@ export default function Menu() {
     "#experience": (
       <DocumentTextIcon className="h-7 mx-auto  text-white hover:text-yellow-500 mt-4" />
     ),
+    "#portfolio": (
+      <DocumentTextIcon className="h-7 mx-auto  text-white hover:text-yellow-500 mt-4" />
+    ),
     "#contact": (
       <PhoneIcon className="h-7 mx-auto  text-white hover:text-yellow-500 mt-4" />
     ),
