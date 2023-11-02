@@ -15,7 +15,7 @@ export default function About() {
           <img
             src={menImg}
             alt=""
-            className="rounded-full border border-yellow-600 outline outline-offset-2 outline-4 outline-sky-500 max-h-[350px] m-auto md:h-auto h-60"
+            className="avatar border border-yellow-600 outline outline-offset-2 outline-4 outline-sky-500 max-h-[350px] m-auto md:h-auto h-60"
           />
           <div className="md:mt-8 mt-10">
             <span className="text-xl font-light">{headline}</span>

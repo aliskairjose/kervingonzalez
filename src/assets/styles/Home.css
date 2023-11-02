@@ -1,0 +1,6 @@
+.derecha {
+    background-color: red;
+    height: 100vw;
+    width: 100%;
+    border-radius: 100% 0% 0% 100% / 100% 0% 100% 0% ;
+}

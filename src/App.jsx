@@ -7,6 +7,7 @@ import Menu from "./components/Menu";
 import { createContext } from "react";
 import data from "./data/data.json";
 import Footer from "./components/Footer";
+import Portfolio from "./components/Portfolio";
 // import Education from './components/Education';
 
 export const UserContext = createContext();
@@ -33,6 +34,9 @@ function App() {
           </section>
           <section id="experience" className="lg:py-[80px] py-[40px]">
             <Experience />
+          </section>
+          <section id="portfolio" className="lg:py-[80px] py-[40px] bg-sky-100">
+            <Portfolio />
           </section>
           
           <Footer />

@@ -157,32 +157,28 @@
     "abilities": {
         "title": "Habilidades.",
         "skills": {
-            "title": "Programming Skills",
+            "title": "Habilidades",
             "items": [
                 {
                     "skill": "Javascript",
-                    "percent": "80%"
+                    "percent": "84%"
                 },
                 {
                     "skill": "TypeScript",
-                    "percent": "80%"
+                    "percent": "73%"
                 },
                 {
                     "skill": "Angular",
-                    "percent": "90%"
+                    "percent": "73%"
                 },
                 {
-                    "skill": "Ionic",
-                    "percent": "75%"
-                },
+                    "skill": "React",
+                    "percent": "63%"
+                },   
                 {
-                    "skill": "Bootstrap",
-                    "percent": "85%"
-                },
-                {
-                    "skill": "Tailwind",
-                    "percent": "75%"
-                }
+                    "skill": "Vue",
+                    "percent": "42%"
+                }   
             ]
         },
         "knowledge": {
@@ -191,16 +187,16 @@
                 [
                     "Javascript,",
                     "TypeScript,",
-                    "ReactJs,",
-                    "VueJs,",
+                    "React,",
+                    "Vue,",
                     "JQuery"
                 ],
                 [
                     "PHP,",
                     "Laravel,",
                     "Symphony,",
-                    "NodeJs,",
-                    "NestJs"
+                    "Node,",
+                    "Nest"
                 ],
                 [
                     "Ionic,",
@@ -220,6 +216,9 @@
             ]
         }
     },
+    "portfolio": {
+        "title": "Portafolio"
+    },
     "menu": [
         {
             "hash": "#home"
@@ -232,6 +231,9 @@
         },
         {
             "hash": "#experience"
+        },
+        {
+            "hash": "#portfolio"
         }
     ]
 }
