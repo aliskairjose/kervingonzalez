@@ -220,12 +220,12 @@
         "title": "Portafolio",
         "portfolios": [
             {
-                "image":"movies",
+                "image":"movies.png",
                 "name":"Movies (React)",
                 "url":"https://aliskairjose.github.io/react-movies/"
             },
             {
-                "image":"recipes",
+                "image":"recipes.png",
                 "name":"Recipes (React)",
                 "url":"https://aliskairjose.github.io/recipes/"
             }
