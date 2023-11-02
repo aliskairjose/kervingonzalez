@@ -217,7 +217,19 @@
         }
     },
     "portfolio": {
-        "title": "Portafolio"
+        "title": "Portafolio",
+        "portfolios": [
+            {
+                "image":"movies",
+                "name":"Movies",
+                "url":"https://aliskairjose.github.io/react-movies/"
+            },
+            {
+                "image":"recipes",
+                "name":"Recipes",
+                "url":"https://aliskairjose.github.io/recipes/"
+            }
+        ]
     },
     "menu": [
         {
