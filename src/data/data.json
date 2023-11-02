@@ -221,12 +221,12 @@
         "portfolios": [
             {
                 "image":"movies",
-                "name":"Movies",
+                "name":"Movies (React)",
                 "url":"https://aliskairjose.github.io/react-movies/"
             },
             {
                 "image":"recipes",
-                "name":"Recipes",
+                "name":"Recipes (React)",
                 "url":"https://aliskairjose.github.io/recipes/"
             }
         ]
