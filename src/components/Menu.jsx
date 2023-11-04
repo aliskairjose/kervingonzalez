@@ -35,6 +35,7 @@ export default function Menu() {
   const { menu } = data;
 
   const menuIcon = (icon) => MENU_ICON[icon];
+  
   return (
     <div className="grid grid-flow-row auto-rows-max w-full gap-12">
       <div className="bg-yellow-600">
