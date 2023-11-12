@@ -21,8 +21,8 @@ export default function Home() {
         <div>{home.phone}</div>
         <div className="pl-10">{home.email}</div>
       </div>
-      <div className="relative z-10">
-        <div className="flex flex-row items-center h-screen xl:px-32 px-4 xl:max-w-3xl md:max-w-xl max-w-sm">
+      <div className="flex relative z-10 px-4">
+        <div className="flex flex-row items-center h-screen xl:px-32 xl:max-w-3xl md:max-w-xl max-w-sm w-1/2">
           <div className="text-left">
             <p className="ls:text-xl text-sm pb-6 italic font-light">
               {home.saludo}
@@ -54,6 +54,9 @@ export default function Home() {
               </a>
             </div>
           </div>
+        </div>
+        <div className="grid place-content-center w-1/2">
+          hola
         </div>
       </div>
     </div>
