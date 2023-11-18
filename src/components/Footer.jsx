@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="w-full">
       <hr className="h-0.5 border-t-0  bg-neutral-100 opacity-100 dark:opacity-50 " />
       <div className="flex lg:flex-row flex-col p-6 lg:px-8">
-        <div className="flex lg:flex-1 flex-none text-left">
+        <div className="flex lg:flex-1 flex-none text-left gap-2">
           © {date.getFullYear()}. Desarrollada con 
           <img src={reactLogo} className='ms-1 h-6' /> 
           <img src={viteLogo} className='h-6' />
