@@ -3,6 +3,7 @@ import {
   UserIcon,
   DocumentTextIcon,
   PhoneIcon,
+  BriefcaseIcon,
   ShieldCheckIcon,
 } from "@heroicons/react/24/outline";
 import menImg from "./../assets/me.jpg";
@@ -25,7 +26,7 @@ export default function Menu() {
       <DocumentTextIcon className="h-7 mx-auto  text-white hover:text-yellow-500 mt-4" />
     ),
     "#portfolio": (
-      <DocumentTextIcon className="h-7 mx-auto  text-white hover:text-yellow-500 mt-4" />
+      <BriefcaseIcon className="h-7 mx-auto  text-white hover:text-yellow-500 mt-4" />
     ),
     "#contact": (
       <PhoneIcon className="h-7 mx-auto  text-white hover:text-yellow-500 mt-4" />

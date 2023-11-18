@@ -21,10 +21,10 @@ export default function Portfolio() {
   return (
     <div className="w-full min-h-max lg:px-24 px-4">
       <h1 className="title text-yellow-600">{title}</h1>
-      <div className="grid grid-flow-col gap-2">
+      <div className="grid grid-flow-col gap-6">
         {portfolios.map((p, i) => (
           <div key={i}>
-            <img src={image(p.image)} className="object-fill h-48 w-96" />
+            <img src={image(p.image)} className="object-fill h-48 w-96 rounded border border-double border-sky-900 outline outline-offset-4 " />
             <p className="uppercase mt-2">
               <a target="_blank" rel="noopener noreferrer" href={p.url}>
                 {p.name}
