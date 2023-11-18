@@ -56,7 +56,7 @@ export default function Home() {
           </div>
         </div>
         <div className="grid place-content-center w-1/2">
-          hola
+
         </div>
       </div>
     </div>

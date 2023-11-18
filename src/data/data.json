@@ -220,14 +220,24 @@
         "title": "Portafolio",
         "portfolios": [
             {
-                "image":"movies.png",
+                "image":"movies",
                 "name":"Movies (React)",
-                "url":"https://aliskairjose.github.io/react-movies/"
+                "url":"https://aliskairjose.github.io/movies/"
             },
             {
-                "image":"recipes.png",
+                "image":"recipes",
                 "name":"Recipes (React)",
                 "url":"https://aliskairjose.github.io/recipes/"
+            },
+            {
+                "image":"weather",
+                "name":"Weather (React)",
+                "url":"https://aliskairjose.github.io/weather/"
+            },
+            {
+                "image":"currency",
+                "name":"Currency Converter (Vue3)",
+                "url":"https://aliskairjose.github.io/currency-converter-vue3/"
             }
         ]
     },
