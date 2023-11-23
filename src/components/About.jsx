@@ -8,6 +8,10 @@ export default function About() {
   const data = useContext(UserContext);
   const { description, title, headline, name, languages } = data.bio;
 
+  const goto = (item) => {
+    item.link && window.open(item.link, '_blank');
+  }
+
   return (
     <div className="w-full min-h-max xl:px-24 lg:px-12 px-4">
       <div className="flex flex-col lg:flex-row lg:gap-0 md:gap-10 gap-4">
@@ -54,7 +58,7 @@ export default function About() {
           <div className="flex items-center justify-center mt-6">
             <div className="md:flex gap-6">
               {languages.map((item, index) => (
-                <div className="flex items-center mb-4 md:mb-0" key={index}>
+                <div className="flex items-center mb-4 md:mb-0 cursor-pointer" key={index} onClick={()=>goto(item)}>
                   <p className="font-bold mr-2 p-2 border border-sky-700 rounded-full">
                     {item.language}
                   </p>

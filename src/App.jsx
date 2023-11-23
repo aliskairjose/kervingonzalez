@@ -8,7 +8,6 @@ import { createContext } from "react";
 import data from "./data/data.json";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
-// import Education from './components/Education';
 
 export const UserContext = createContext();
 
@@ -20,22 +19,19 @@ function App() {
           <Menu />
         </div>
         <div className="flex-1 overflow-auto h-screen">
-          <section id="home" className=""> 
+          <section id="home" className="shadow-md"> 
             <Home />
           </section>
-          {/* <section>
-            <Education />
-          </section> */}
           <section id="bio" className="lg:py-[80px] py-[40px]">
             <About />
           </section>
-          <section id="skills" className="lg:py-[80px] py-[40px] bg-sky-100">
+          <section id="skills" className="lg:py-[80px] py-[40px] bg-sky-100 shadow-md">
             <Skills />
           </section>
           <section id="experience" className="lg:py-[80px] py-[40px]">
             <Experience />
           </section>
-          <section id="portfolio" className="lg:py-[80px] py-[40px] bg-sky-100">
+          <section id="portfolio" className="lg:py-[80px] py-[40px] bg-sky-100 shadow-md">
             <Portfolio />
           </section>
           
