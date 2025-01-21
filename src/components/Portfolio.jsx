@@ -1,34 +1,26 @@
-import { useContext } from "react";
+import * as images from '../assets/images/portfolio';
+
 import { UserContext } from "../App";
-import movieImg from '../assets/images/portfolio/movies.png';
-import weatherImg from '../assets/images/portfolio/weather.png';
-import currencyImg from '../assets/images/portfolio/currency.png';
-import reccipesImg from '../assets/images/portfolio/recipes.png';
+import { useContext } from "react";
 
 export default function Portfolio() {
   const data = useContext(UserContext);
   const { title, portfolios } = data.portfolio;
 
-  const image = (i) => {
-    const IMG = {
-      weather: weatherImg,
-      movies: movieImg,
-      recipes: reccipesImg,
-      currency: currencyImg
-    }
-    return IMG[i]
+  function goPage(event, url) {
+    event.preventDefault();
+    window.open(url);
   }
+
   return (
     <div className="w-full min-h-max lg:px-24 px-4">
       <h1 className="title text-yellow-600">{title}</h1>
-      <div className="grid grid-flow-col gap-6">
+      <div className="grid xl:grid-cols-4 grid-cols-1 gap-2 xl:gap-6">
         {portfolios.map((p, i) => (
-          <div key={i}>
-            <img src={image(p.image)} className="object-fill h-48 w-96 rounded border border-double border-sky-900 outline outline-offset-4 " />
+          <div key={i} onClick={($event) => goPage($event, p.url)} className="cursor-pointer">
+            <img src={images[p.image]} className="aspect-video rounded border border-sky-900" />
             <p className="uppercase mt-2">
-              <a target="_blank" rel="noopener noreferrer" href={p.url}>
-                {p.name}
-              </a>
+              {p.name}
             </p>
           </div>
         ))}

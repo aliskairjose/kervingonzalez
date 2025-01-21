@@ -1,9 +1,10 @@
-import cv from "../assets/docs/kervin-gonzalez-cv.pdf";
 import "../App.css";
-import { useContext } from "react";
+
 import MovingText from "react-moving-text";
 import { UserContext } from "../App";
 import bgPNG from "../assets/images/bg/bg-7.png";
+import cv from "../assets/docs/kervin-gonzalez-cv.pdf";
+import { useContext } from "react";
 
 export default function Home() {
   const data = useContext(UserContext);
@@ -22,7 +23,7 @@ export default function Home() {
         <div className="pl-10">{home.email}</div>
       </div>
       <div className="flex relative z-10 px-4">
-        <div className="flex flex-row items-center h-screen xl:px-32 xl:max-w-3xl md:max-w-xl max-w-sm w-1/2">
+        <div className="flex flex-row items-center h-screen xl:pl-20 xl:max-w-3xl md:max-w-xl max-w-sm">
           <div className="text-left">
             <p className="ls:text-xl text-sm pb-6 italic font-light">
               {home.saludo}

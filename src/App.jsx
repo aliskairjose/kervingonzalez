@@ -1,13 +1,14 @@
 import "./App.css";
+
 import About from "./components/About";
 import Experience from "./components/Experience/";
-import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Menu from "./components/Menu";
+import Portfolio from "./components/Portfolio";
+import Skills from "./components/Skills";
 import { createContext } from "react";
 import data from "./data/data.json";
-import Footer from "./components/Footer";
-import Portfolio from "./components/Portfolio";
 
 export const UserContext = createContext();
 

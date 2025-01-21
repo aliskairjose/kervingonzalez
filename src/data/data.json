@@ -58,6 +58,21 @@
         "title": "Experiencia Laboral.",
         "experiences": [
             {
+                "company": "DeepCompany",
+                "cargo": "Programador FullStack",
+                "dates": "Ene 2024 - Oct 2024",
+                "logo": "",
+                "country": "Venezuela",
+                "description": "Front Angular para la web de Farmatodo y full stack react + nodejs para el proyecto Marketplace deFarmatodoColombia",
+                "tasks": [
+                    "Desarrollo Front-End con Angular y React",
+                    "Dessarollo backend con nojejs",
+                    "Manejo de versionado con Git",
+                    "Tailwind Framework",
+                    "Desarrollador full stack para Marketplace Farmatodo Colombia"
+                ]
+            },
+            {
                 "company": "Octans Digital Service",
                 "cargo": "Programador Front-End",
                 "dates": "Ag 2022 - Jul 2023",
@@ -223,7 +238,7 @@
             {
                 "image":"movies",
                 "name":"Movies (React)",
-                "url":"https://aliskairjose.github.io/movies/"
+                "url":"https://aliskairjose.github.io/react-movies/"
             },
             {
                 "image":"recipes",
