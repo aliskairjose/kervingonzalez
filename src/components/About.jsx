@@ -1,8 +1,9 @@
-import menImg from "../assets/me.jpg";
-import { useContext } from "react";
-import { UserContext } from "../App";
 import "../App.css";
 import "../assets/styles/About.css";
+
+import { UserContext } from "../App";
+import menImg from "../assets/me.jpg";
+import { useContext } from "react";
 
 export default function About() {
   const data = useContext(UserContext);
@@ -56,12 +57,18 @@ export default function About() {
             </div>
           </div>
           <div className="flex items-center justify-center mt-6">
-            <div className="md:flex gap-6">
+            <div className="grid grid-cols-2 gap-4">
               {languages.map((item, index) => (
-                <div className="flex items-center mb-4 md:mb-0 cursor-pointer" key={index} onClick={()=>goto(item)}>
-                  <p className="font-bold mr-2 p-2 border border-sky-700 rounded-full">
-                    {item.language}
-                  </p>
+                <div 
+                  className="flex items-center mb-4 md:mb-0 cursor-pointer gap-1.5" 
+                  key={index} 
+                  onClick={() => goto(item)}
+                >
+                  <div className="size-10 flex items-center justify-center border border-sky-700 rounded-full">
+                    <span className="font-bold">
+                      {item.language}
+                    </span>
+                  </div>
                   <p>{item.level}</p>
                 </div>
               ))}
