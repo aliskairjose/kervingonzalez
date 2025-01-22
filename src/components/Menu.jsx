@@ -1,15 +1,16 @@
 import {
-  HomeIcon,
-  UserIcon,
-  DocumentTextIcon,
-  PhoneIcon,
   BriefcaseIcon,
+  DocumentTextIcon,
+  HomeIcon,
+  PhoneIcon,
   ShieldCheckIcon,
+  UserIcon,
 } from "@heroicons/react/24/outline";
-import menImg from "./../assets/me.jpg";
+
 import { HashLink } from "react-router-hash-link";
-import { useContext } from "react";
 import { UserContext } from "../App";
+import menImg from "./../assets/me.jpg";
+import { useContext } from "react";
 
 export default function Menu() {
   const MENU_ICON = {
@@ -35,8 +36,6 @@ export default function Menu() {
   const data = useContext(UserContext);
   const { menu } = data;
 
-  const menuIcon = (icon) => MENU_ICON[icon];
-  
   return (
     <div className="grid grid-flow-row auto-rows-max w-full gap-12">
       <div className="bg-yellow-600">
@@ -56,7 +55,7 @@ export default function Menu() {
             className={index ? "border-t border-gray-400" : ""}
           >
             <HashLink to={m.hash} smooth>
-              {menuIcon(m.hash)}
+              {MENU_ICON[m.hash]}
             </HashLink>
           </div>
         ))}
