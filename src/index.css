@@ -23,3 +23,7 @@ h1.title {
   padding-bottom: 2.5rem;
   text-align: left;
 }
+
+.menuIcon {
+  @apply h-7 mx-auto text-white hover:text-yellow-500 mt-4;
+}

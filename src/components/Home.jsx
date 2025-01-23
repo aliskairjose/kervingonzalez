@@ -19,8 +19,8 @@ export default function Home() {
         />
       </div>
       <div className="absolute hidden sm:flex pt-10 xl:px-32 px-4 xl:max-w-3xl md:max-w-xl max-w-sm text-sm z-10">
-        <div>{home.phone}</div>
-        <div className="pl-10">{home.email}</div>
+        <p>{home.phone}</p>
+        <p className="pl-10 font-semibold">{home.email}</p>
       </div>
       <div className="flex relative z-10 px-4">
         <div className="flex flex-row items-center h-screen xl:pl-20 xl:max-w-3xl md:max-w-xl max-w-sm">

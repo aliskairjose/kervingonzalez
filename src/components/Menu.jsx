@@ -15,22 +15,22 @@ import { useContext } from "react";
 export default function Menu() {
   const MENU_ICON = {
     "#home": (
-      <HomeIcon className="h-7 mx-auto  text-white hover:text-yellow-500 mt-4" />
+      <HomeIcon className="menuIcon" />
     ),
     "#bio": (
-      <UserIcon className="h-7 mx-auto  text-white hover:text-yellow-500 mt-4" />
+      <UserIcon className="menuIcon" />
     ),
     "#skills": (
-      <ShieldCheckIcon className="h-7 mx-auto  text-white hover:text-yellow-500 mt-4" />
+      <ShieldCheckIcon className="menuIcon" />
     ),
     "#experience": (
-      <DocumentTextIcon className="h-7 mx-auto  text-white hover:text-yellow-500 mt-4" />
+      <DocumentTextIcon className="menuIcon" />
     ),
     "#portfolio": (
-      <BriefcaseIcon className="h-7 mx-auto  text-white hover:text-yellow-500 mt-4" />
+      <BriefcaseIcon className="menuIcon" />
     ),
     "#contact": (
-      <PhoneIcon className="h-7 mx-auto  text-white hover:text-yellow-500 mt-4" />
+      <PhoneIcon className="menuIcon" />
     ),
   };
   const data = useContext(UserContext);
@@ -48,11 +48,10 @@ export default function Menu() {
           />
         </a>
       </div>
-      <div className="grid grid-flow-row auto-rows-max gap-4">
+      <div className="grid grid-flow-row auto-rows-max gap-4 divide-y divide-gray-400">
         {menu.map((m, index) => (
           <div
             key={index}
-            className={index ? "border-t border-gray-400" : ""}
           >
             <HashLink to={m.hash} smooth>
               {MENU_ICON[m.hash]}

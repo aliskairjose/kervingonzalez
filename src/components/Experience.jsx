@@ -1,11 +1,13 @@
-import { useContext } from "react";
-import { UserContext } from "../App";
-import { ServerStackIcon } from "@heroicons/react/24/outline";
+import "react-vertical-timeline-component/style.min.css";
+
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
+
+import { ServerStackIcon } from "@heroicons/react/24/outline";
+import { UserContext } from "../App";
+import { useContext } from "react";
 
 export default function Experience() {
   const data = useContext(UserContext);

@@ -1,5 +1,5 @@
-import { useContext } from "react";
 import { UserContext } from "../App";
+import { useContext } from "react";
 
 export default function Skills() {
   const data = useContext(UserContext);
@@ -39,7 +39,7 @@ export default function Skills() {
               </div>
               <div className="flex w-full rounded-full h-1.5 bg-gray-200 dark:bg-gray-700">
                 <div
-                  className="bg-sky-700 h-1.5 rounded-full"
+                  className="bg-yellow-500 h-1.5 rounded-full"
                   style={{ width: item.percent }}
                 ></div>
               </div>
