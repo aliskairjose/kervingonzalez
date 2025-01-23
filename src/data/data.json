@@ -1,277 +1,235 @@
 {
-    "home": {
-        "title": "Home",
-        "saludo": "Hola, mi nombre es",
-        "email": "kervingonzalez@gmail.com",
-        "name": "Kervin González",
-        "phone": "+58 412.241.9616",
-        "headlines": [
-            "Front End Developer",
-            "Back End Developer",
-            "Full Stack Developer",
-            "App Developer"
-        ],
-        "description":"Desarrollador front-end basado en Angular, Vue y React, con conocimiento de back con NodeJs, NestJs y Laravel",
-        "download": "Descargar CV"
-    },
-    "bio": {
-        "title": "Biografía.",
-        "description": "Desarrollador front-end con experiencia en Angular, Vue, Rect, para ayudar a las empresas a crear y mantener un mejor código base para la reutilización. Capaz de aprender continuamente de los desarrolladores senior y seguir nutriendo a los desarrolladores junior. Experiencia en impulsar proyectos como parte fundamental del equipo de desarrollo, facilitando proyectos desde el concepto hasta el lanzamiento. Apasionado por el aprendizaje y el desarrollo con el deseo de aplicar habilidades en el equipo de desarrollo más grande, ansioso por abordar problemas más complejos y continuar encontrando formas de maximizar la eficiencia del usuario.",
-        "details": [
-            {
-                "Nombre": "Kervin Gonzalez"
-            },
-            {
-                "Teléfono": "+58 412.241.9616"
-            },
-            {
-                "Dirección": "Venezuela"
-            },
-            {
-                "Email": "kervingonzalez@gmail.com"
-            },
-            {
-                "github": "github.com/aliskairjose"
-            },
-            {
-                "Freelance": "Disponible"
-            }
-        ],
-        "languages": [
-            {
-                "language": "ES",
-                "level": "NATIVO"
-            },
-            {
-                "language": "EN",
-                "level": "B2",
-                "link": "https://www.efset.org/cert/zvdFEH"
-            }
-        ],
-        "name": "Kervin González",
-        "headline": "Front-End Developer"
-    },
-    "cursos":[
-        {"":""}
+  "home": {
+    "title": "Home",
+    "saludo": "Hola, mi nombre es",
+    "email": "kervingonzalez@gmail.com",
+    "name": "Kervin González",
+    "phone": "+58 412.241.9616",
+    "headlines": [
+      "Front End Developer",
+      "Back End Developer",
+      "Full Stack Developer",
+      "App Developer"
     ],
-    "experience": {
-        "title": "Experiencia Laboral.",
-        "experiences": [
-            {
-                "company": "DeepCompany",
-                "cargo": "Programador FullStack",
-                "dates": "Ene 2024 - Oct 2024",
-                "logo": "",
-                "country": "Venezuela",
-                "description": "Front Angular para la web de Farmatodo y full stack react + nodejs para el proyecto Marketplace deFarmatodoColombia",
-                "tasks": [
-                    "Desarrollo Front-End con Angular y React",
-                    "Dessarollo backend con nojejs",
-                    "Manejo de versionado con Git",
-                    "Tailwind Framework",
-                    "Desarrollador full stack para Marketplace Farmatodo Colombia"
-                ]
-            },
-            {
-                "company": "Octans Digital Service",
-                "cargo": "Programador Front-End",
-                "dates": "Ag 2022 - Jul 2023",
-                "logo": "",
-                "country": "Colombia",
-                "description": "",
-                "tasks": [
-                    "Desarrollo Front-End con Angular",
-                    "Manejo de versionado con Git",
-                    "Tailwind Framework",
-                    "Parte del equipo de desarollo del producto MISSION"
-                ]
-            },
-            {
-                "company": "Xcale Consulting",
-                "cargo": "Programador Front-End",
-                "dates": "Nov 2021 - Jun 2023",
-                "logo": "",
-                "country": "Argentina",
-                "description": "",
-                "tasks": [
-                    "Desarrollo Front-End con Angular",
-                    "Manejo de versionado con Git",
-                    "Parte del equipo de desarrollo del producto Portal Hotelero"
-                ]
-            },
-            {
-                "company": "Reig - An Apply DigitalCompany",
-                "cargo": "Programador Front-End",
-                "dates": "Nov 2021 - Nov 2022",
-                "logo": "",
-                "country": "Chile",
-                "description": "",
-                "tasks": [
-                    "Desarrollo Front-End con Angular",
-                    "Manejo de versionado con Git",
-                    "Implementación de ATOMIC DESIG con CONTENTFUL",
-                    "Parte del equipo de desarrollo del protal TIGO"
-                ]
-            },
-            {
-                "company": "Cronapis (cerrada)",
-                "cargo": "Programador Front-End",
-                "dates": "Jul 2020 - Oct 2022",
-                "logo": "",
-                "country": "Panamá",
-                "description": "",
-                "tasks": [
-                    "Desarrollo Front-End con Angular",
-                    "Desarrollo Front-End con Vuejs",
-                    "Manejo de versionado con Git",
-                    "Desarrollo de aplicaciones moviles con IONIC"
-                ]
-            },
-            {
-                "company": "BrickControl - Servicios TI y Consultoría",
-                "cargo": "Programador Front-End",
-                "dates": "May 2019 - Feb 2020",
-                "logo": "",
-                "country": "España",
-                "description": "",
-                "tasks": [
-                    "Desarrollo Front-End con Angular",
-                    "Manejo de versionado con Git",
-                    "Implementación de diseño con Bootstrap",
-                    "Parte del equipo de desarrollo del Software de gestión de constucción"
-                ]
-            },
-            {
-                "company": "OFG",
-                "cargo": "Programador Full-Stack",
-                "dates": "May 2018 - May 2019",
-                "logo": "",
-                "country": "Panamá",
-                "description": "",
-                "tasks": [
-                    "Desarrollo Full Stack con Symphony",
-                    "Administración de DB MySql",
-                    "Parte del equipo de desarrollo del portal de control de acceso de técnicos a torres de telefonía"
-                ]
-            },
-            {
-                "company": "Universidad Marítima del Caribe",
-                "cargo": "Analista Programador",
-                "dates": "Jun 2008 - Feb 2018",
-                "logo": "../umc.png",
-                "country": "Venezuela",
-                "description": "",
-                "tasks": [
-                    "Soporte técnico",
-                    "Administrador de servidores",
-                    "Programador",
-                    "Desarrollo del web site de la UMC"
-                ]
-            }
+    "description": "Desarrollador front-end basado en Angular, Vue y React, con conocimiento de back con NodeJs, NestJs y Laravel",
+    "download": "Descargar CV"
+  },
+  "bio": {
+    "title": "Biografía.",
+    "description": "Desarrollador front-end con experiencia en Angular, Vue, Rect, para ayudar a las empresas a crear y mantener un mejor código base para la reutilización. Capaz de aprender continuamente de los desarrolladores senior y seguir nutriendo a los desarrolladores junior. Experiencia en impulsar proyectos como parte fundamental del equipo de desarrollo, facilitando proyectos desde el concepto hasta el lanzamiento. Apasionado por el aprendizaje y el desarrollo con el deseo de aplicar habilidades en el equipo de desarrollo más grande, ansioso por abordar problemas más complejos y continuar encontrando formas de maximizar la eficiencia del usuario.",
+    "details": [
+      {
+        "Nombre": "Kervin Gonzalez"
+      },
+      {
+        "Teléfono": "+58 412.241.9616"
+      },
+      {
+        "Dirección": "Venezuela"
+      },
+      {
+        "Email": "kervingonzalez@gmail.com"
+      },
+      {
+        "github": "github.com/aliskairjose"
+      },
+      {
+        "Freelance": "Disponible"
+      }
+    ],
+    "languages": [
+      {
+        "language": "ES",
+        "level": "NATIVO"
+      },
+      {
+        "language": "EN",
+        "level": "B2",
+        "link": "https://www.efset.org/cert/zvdFEH"
+      }
+    ],
+    "name": "Kervin González",
+    "headline": "Front-End Developer"
+  },
+  "cursos": [{ "": "" }],
+  "experience": {
+    "title": "Experiencia Laboral.",
+    "experiences": [
+      {
+        "company": "DeepCompany",
+        "cargo": "Programador FullStack",
+        "dates": "Ene 2024 - Oct 2024",
+        "logo": "",
+        "country": "Venezuela",
+        "description": "Front Angular para la web de Farmatodo y full stack react + nodejs para el proyecto Marketplace deFarmatodoColombia",
+        "tasks": [
+          "Desarrollo Front-End con Angular y React",
+          "Dessarollo backend con nojejs",
+          "Manejo de versionado con Git",
+          "Tailwind Framework",
+          "Desarrollador full stack para Marketplace Farmatodo Colombia"
         ]
-    },
-    "abilities": {
-        "title": "Habilidades.",
-        "skills": {
-            "title": "Habilidades",
-            "items": [
-                {
-                    "skill": "Javascript",
-                    "percent": "84%"
-                },
-                {
-                    "skill": "TypeScript",
-                    "percent": "80%"
-                },
-                {
-                    "skill": "Angular",
-                    "percent": "80%"
-                },
-                {
-                    "skill": "React",
-                    "percent": "63%"
-                },   
-                {
-                    "skill": "Vue",
-                    "percent": "42%"
-                }   
-            ]
-        },
-        "knowledge": {
-            "title": "Conocimientos",
-            "items": [
-                [
-                    "Javascript,",
-                    "TypeScript,",
-                    "React,",
-                    "Vue,",
-                    "JQuery"
-                ],
-                [
-                    "PHP,",
-                    "Laravel,",
-                    "Symphony,",
-                    "Node,",
-                    "Nest"
-                ],
-                [
-                    "Ionic,",
-                    "Flutter"
-                ],
-                [
-                    "Bootstrap,",
-                    "Tailwind,",
-                    "Css3,",
-                    "Sass,",
-                    "Less"
-                ],
-                [
-                    "Git,",
-                    "Contentful"
-                ]
-            ]
-        }
-    },
-    "portfolio": {
-        "title": "Portafolio",
-        "portfolios": [
-            {
-                "image":"movies",
-                "name":"Movies (React)",
-                "url":"https://aliskairjose.github.io/react-movies/"
-            },
-            {
-                "image":"recipes",
-                "name":"Recipes (React)",
-                "url":"https://aliskairjose.github.io/recipes/"
-            },
-            {
-                "image":"weather",
-                "name":"Weather (React)",
-                "url":"https://aliskairjose.github.io/weather/"
-            },
-            {
-                "image":"currency",
-                "name":"Currency Converter (Vue3)",
-                "url":"https://aliskairjose.github.io/currency-converter-vue3/"
-            }
+      },
+      {
+        "company": "Octans Digital Service",
+        "cargo": "Programador Front-End",
+        "dates": "Ag 2022 - Jul 2023",
+        "logo": "",
+        "country": "Colombia",
+        "description": "",
+        "tasks": [
+          "Desarrollo Front-End con Angular",
+          "Manejo de versionado con Git",
+          "Tailwind Framework",
+          "Parte del equipo de desarollo del producto MISSION"
         ]
-    },
-    "menu": [
-        {
-            "hash": "#home"
-        },
-        {
-            "hash": "#bio"
-        },
-        {
-            "hash": "#skills"
-        },
-        {
-            "hash": "#experience"
-        },
-        {
-            "hash": "#portfolio"
-        }
+      },
+      {
+        "company": "Xcale Consulting",
+        "cargo": "Programador Front-End",
+        "dates": "Nov 2021 - Jun 2023",
+        "logo": "",
+        "country": "Argentina",
+        "description": "",
+        "tasks": [
+          "Desarrollo Front-End con Angular",
+          "Manejo de versionado con Git",
+          "Parte del equipo de desarrollo del producto Portal Hotelero"
+        ]
+      },
+      {
+        "company": "Reig - An Apply DigitalCompany",
+        "cargo": "Programador Front-End",
+        "dates": "Nov 2021 - Nov 2022",
+        "logo": "",
+        "country": "Chile",
+        "description": "",
+        "tasks": [
+          "Desarrollo Front-End con Angular",
+          "Manejo de versionado con Git",
+          "Implementación de ATOMIC DESIG con CONTENTFUL",
+          "Parte del equipo de desarrollo del protal TIGO"
+        ]
+      },
+      {
+        "company": "Cronapis (cerrada)",
+        "cargo": "Programador Front-End",
+        "dates": "Jul 2020 - Oct 2022",
+        "logo": "",
+        "country": "Panamá",
+        "description": "",
+        "tasks": [
+          "Desarrollo Front-End con Angular",
+          "Desarrollo Front-End con Vuejs",
+          "Manejo de versionado con Git",
+          "Desarrollo de aplicaciones moviles con IONIC"
+        ]
+      },
+      {
+        "company": "BrickControl - Servicios TI y Consultoría",
+        "cargo": "Programador Front-End",
+        "dates": "May 2019 - Feb 2020",
+        "logo": "",
+        "country": "España",
+        "description": "",
+        "tasks": [
+          "Desarrollo Front-End con Angular",
+          "Manejo de versionado con Git",
+          "Implementación de diseño con Bootstrap",
+          "Parte del equipo de desarrollo del Software de gestión de constucción"
+        ]
+      },
+      {
+        "company": "OFG",
+        "cargo": "Programador Full-Stack",
+        "dates": "May 2018 - May 2019",
+        "logo": "",
+        "country": "Panamá",
+        "description": "",
+        "tasks": [
+          "Desarrollo Full Stack con Symphony",
+          "Administración de DB MySql",
+          "Parte del equipo de desarrollo del portal de control de acceso de técnicos a torres de telefonía"
+        ]
+      },
+      {
+        "company": "Universidad Marítima del Caribe",
+        "cargo": "Analista Programador",
+        "dates": "Jun 2008 - Feb 2018",
+        "logo": "../umc.png",
+        "country": "Venezuela",
+        "description": "",
+        "tasks": [
+          "Soporte técnico",
+          "Administrador de servidores",
+          "Programador",
+          "Desarrollo del web site de la UMC"
+        ]
+      }
     ]
+  },
+  "abilities": {
+    "title": "Habilidades.",
+    "skills": {
+      "title": "Habilidades",
+      "items": [
+        {
+          "skill": "Javascript",
+          "percent": "84%"
+        },
+        {
+          "skill": "TypeScript",
+          "percent": "80%"
+        },
+        {
+          "skill": "Angular",
+          "percent": "80%"
+        },
+        {
+          "skill": "React",
+          "percent": "63%"
+        },
+        {
+          "skill": "Vue",
+          "percent": "42%"
+        }
+      ]
+    },
+    "knowledge": {
+      "title": "Conocimientos",
+      "items": [
+        ["Javascript,", "TypeScript,", "React,", "Vue,", "JQuery"],
+        ["PHP,", "Laravel,", "Symphony,", "Node,", "Nest"],
+        ["Ionic,", "Flutter"],
+        ["Bootstrap,", "Tailwind,", "Css3,", "Sass,", "Less"],
+        ["Git,", "Contentful"]
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Portafolio",
+    "portfolios": [
+      {
+        "image": "movies",
+        "name": "Movies (React)",
+        "url": "https://aliskairjose.github.io/react-movies/"
+      },
+      {
+        "image": "recipes",
+        "name": "Recipes (React)",
+        "url": "https://aliskairjose.github.io/recipes/"
+      },
+      {
+        "image": "weather",
+        "name": "Weather (React)",
+        "url": "https://aliskairjose.github.io/weather/"
+      },
+      {
+        "image": "currency",
+        "name": "Currency Converter (Vue3)",
+        "url": "https://aliskairjose.github.io/currency-converter-vue3/"
+      }
+    ]
+  },
+  "menu": ["#home", "#bio", "#skills", "#experience", "#portfolio"]
 }

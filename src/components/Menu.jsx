@@ -50,11 +50,9 @@ export default function Menu() {
       </div>
       <div className="grid grid-flow-row auto-rows-max gap-4 divide-y divide-gray-400">
         {menu.map((m, index) => (
-          <div
-            key={index}
-          >
-            <HashLink to={m.hash} smooth>
-              {MENU_ICON[m.hash]}
+          <div key={index}>
+            <HashLink to={m} smooth>
+              {MENU_ICON[m]}
             </HashLink>
           </div>
         ))}
