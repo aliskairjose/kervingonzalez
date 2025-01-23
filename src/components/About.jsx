@@ -32,8 +32,8 @@ export default function About() {
             {title}
           </h1>
           <p className="leading-7">{description}</p>
-          <div className="flex flex-col md:flex-row mt-6">
-            <div className="flex-1 leading-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 mt-6">
+            <div className="leading-8">
               <p>
                 <b>Nombre:</b> Kervin González
               </p>
@@ -57,7 +57,7 @@ export default function About() {
             </div>
           </div>
           <div className="flex items-center justify-center mt-6">
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-16">
               {languages.map((item, index) => (
                 <div 
                   className="flex items-center mb-4 md:mb-0 cursor-pointer gap-1.5" 
